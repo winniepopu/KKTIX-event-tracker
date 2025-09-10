@@ -39,7 +39,7 @@ const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/XXXXXX';
 ### 2. Spreadsheet URL
 
 ```javascript
-const SHEET_URL = 'https://docs.google.com/spreadsheets/d/XXXXXX/edit';
+const SHEET_URL = 'https://docs.google.com/spreadsheets/d/XXXXXX';
 ```
 
 * Replace this with the URL of your own Google Spreadsheet.
@@ -49,7 +49,7 @@ const SHEET_URL = 'https://docs.google.com/spreadsheets/d/XXXXXX/edit';
 ### 3. KKTIX Event URLs
 
 ```javascript
-  const urls = {
+  const EVENT_URLS = {
     'PyCon TW Individual Ticket': 'https://pycontw.kktix.cc/events/2025-individual',
      // Add more events if needed
      //'PyCon TW Corporate Ticket': 'https://pycontw.kktix.cc/events/2025-corporate',
@@ -71,6 +71,7 @@ const SHEET_URL = 'https://docs.google.com/spreadsheets/d/XXXXXX/edit';
 ```
 Date | Event 1 | Event 2 | ... | Total
 ```
+<img src="images/google%20sheet%20example%20screenshot.png" alt="Discord Example" width="70%">
 
 * Discord message example:
 
@@ -80,3 +81,6 @@ Date | Event 1 | Event 2 | ... | Total
 ✅ Total: 35 participants
 [View Full Report](https://docs.google.com/spreadsheets/d/XXXXXX/edit)
 ```
+
+<img src="images/discord%20example%20screenshot.png" alt="Discord Example" width="70%">
+
